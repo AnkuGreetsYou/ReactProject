@@ -1,0 +1,15 @@
+.header {
+	background-color: grey;
+	display: flex;
+	max-height: 100px;
+	justify-content: space-between;
+}
+
+.header__image {
+	height: 100%;
+	max-width: 100px;
+}
+
+.loginBlock {
+	align-self: center;
+}

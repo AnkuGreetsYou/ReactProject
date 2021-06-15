@@ -1,0 +1,24 @@
+.navbar {
+	background-color: darkgray;
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 250px;
+	border: 1px solid black;
+	border-left: 0;
+	padding: 5px;
+}
+
+.item {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 10px;
+	color: red;
+}
+
+.item a {
+	color: darkblue;
+}
+
+.item a.active {
+	color: yellow;
+}
